@@ -1,0 +1,11 @@
+- name: Job Ansible Sample
+  
+  host: all
+
+  task:
+
+  	- name: PlayBook Message
+
+  		debug:
+
+  			msg: "Prueba Job Ansible"
